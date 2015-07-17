@@ -82,7 +82,7 @@ apache:
     vhosts:
         Iks64zt3EyU9:
             servername: local.shanehowell.com
-            docroot: /var/www/personal-website
+            docroot: /var/www/personal-website/public
             port: '80'
             setenv:
                 - 'APP_ENV local'
