@@ -36,8 +36,8 @@ var gulp         = require('gulp'),
 
     var input_paths = {
         images:  [srcPath + '**/*.jpg', srcPath + '**/*.png', srcPath + '**/*.gif', '!' + srcPath + '**/*.min.*', '!' + srcPath + '**/min/*.*' ],
-        scripts: [srcPath + '**/**/*.js', '!**/*.min.*', '!**/min/*.*', '!' + srcPath + 'libs/**'],
-        styles:  [srcPath + '**/*.scss', '!' + srcPath + 'partials{,/**}']
+        scripts: [srcPath + '**/**/*.js', '!' + srcPath + 'libs/**', '!' + concatJs, '!**/*.min.*', '!**/min/*.*'],
+        styles:  [srcPath + '**/*.scss', '!' + srcPath + 'partials{,/**}', '!' + concatCss,]
     };
 
     var output_paths = {
