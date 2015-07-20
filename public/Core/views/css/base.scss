@@ -1,0 +1,136 @@
+/**
+ * @file            app/views/layouts/base/css/base.scss
+ * @compiles-to     app/views/layouts/base/css/base.css
+ * @author          Shane Howell <@shane_howell>
+ */
+
+/*************
+ ** Imports **
+ *************/
+
+    @import "../../partials/bootstrap";
+    @import "../../partials/fonts";
+    @import "../../partials/normalize";
+
+
+
+/*************
+ ** Globals **
+ *************/
+
+    * {
+        @include box-sizing(border-box);
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    a {
+        @include transition(all, .3s, ease-in-out, 0s);
+        text-decoration: none;
+
+        &:focus {
+            outline: 0;
+        }
+    }
+
+
+
+/*************************************************************
+ ** 320px Enhanced - Ideal for mobile                       **
+ ** Inherits from 320px standard                            **
+ ** Media query checks for CSS3 support. Has touch support. **
+ *************************************************************/
+
+    @media #{$mq-smallest} {
+
+        .container {
+            width: cols(4);
+            margin: 0 auto;
+        }
+
+    } // end $smallest
+
+
+/*******************************************************
+ ** 480px - Ideal for iPhone Landscape, other mobiles **
+ ** Inherits from 320px Standard, and 320px Enhanced  **
+ ** Has touch support                                 **
+ *******************************************************/
+
+    @media #{$mq-small} {
+
+        .container {
+            width: cols(6);
+            margin: 0 auto;
+        }
+
+    } // end $small
+
+
+/*************************************************************
+ ** 720px - Ideal for iPad Portrait                         **
+ ** Inherits from 320px Standard, 320px Enhanced, and 480px **
+ ** Has touch support.                                      **
+ *************************************************************/
+
+    @media #{$mq-medium} {
+
+        .container {
+            position: relative;
+            width: cols(9);
+            margin: 0 auto;
+        }
+
+        #main-content {
+            width: 100%;
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+    } // end $medium
+
+
+/************************************************************
+ ** 960px - Ideal for most browser screens, iPad Landscape **
+ ** Inherits all the things.                               **
+ ** Has touch support.                                     **
+ ************************************************************/
+
+    @media #{$mq-large} {
+
+        .container {
+            width: cols(12);
+            margin: 0 auto;
+        }
+
+        #main-content {}
+
+    } // end $large
+
+
+/**********************************************
+ ** 1200px - Ideal for wider browser screens **
+ ** Inherits all the things.                 **
+ ** Has touch support.                       **
+ **********************************************/
+
+    @media #{$mq-largest} {
+
+        .container {
+            width: cols(15);
+            margin: 0 auto;
+        }
+
+    } // end $largest
+
+
+/***************************************************
+ ** Retina x2 - Should be used to replace images. **
+ ** Inherits nothing.                             **
+ ***************************************************/
+
+    @media #{$mq-retina} {}
