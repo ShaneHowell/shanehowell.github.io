@@ -18,7 +18,7 @@ var gulp         = require('gulp'),
     concat       = require('gulp-concat'),
     autoprefixer = require('gulp-autoprefixer'),
     reload       = browserSync.reload,
-    srcPath      = 'public/Pages',
+    srcPath      = 'public/',
     distPath     = 'public/',
     buildPath    = 'public/',
     indexPath    = 'public/',
@@ -36,7 +36,7 @@ var gulp         = require('gulp'),
 
     var input_paths = {
         images:  [srcPath + '**/*.jpg', srcPath + '**/*.png', srcPath + '**/*.gif', '!' + srcPath + '**/*.min.*', '!' + srcPath + '**/min/*.*' ],
-        scripts: [srcPath + '**/**/*.js', '!**/*.min.*', '!**/min/*.*', '!**/libs/*.*'],
+        scripts: [srcPath + '**/**/*.js', '!**/*.min.*', '!**/min/*.*', '!' + srcPath + 'libs/**'],
         styles:  [srcPath + '**/*.scss', '!' + srcPath + 'partials{,/**}']
     };
 
