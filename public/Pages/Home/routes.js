@@ -15,9 +15,9 @@
                 // Home Page
                 .state('root.home', {
                     url: '/',
-                    data: {
-                        pageTitle: 'Home' + defaultTitle
-                    },
+                    // data: {
+                    //     pageTitle: 'Home' + defaultTitle
+                    // },
                     views: {
                         'pages@': {
                             templateUrl: 'Pages/Home/views/Home.index.html'

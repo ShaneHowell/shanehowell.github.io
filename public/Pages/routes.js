@@ -45,7 +45,7 @@
                     url: '',
                     abstract: true,
                     data: {
-                        pageTitle: 'Home'
+                        pageTitle: 'Shane Howell'
                     },
                     views: {
                         'header': {
