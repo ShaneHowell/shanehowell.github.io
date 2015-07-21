@@ -27,7 +27,6 @@
     }
 
     a {
-        @include transition(all, .3s, ease-in-out, 0s);
         text-decoration: none;
 
         &:focus {
