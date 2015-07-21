@@ -1,0 +1,100 @@
+/**
+ * @file            header.scss
+ * @compiles-to     header.css
+ * @imports-to      Layout files
+ * @author          Shane Howell <@shane_howell>
+ */
+
+
+/*************
+ ** Imports **
+ *************/
+
+    @import "../../../../Core/partials/bootstrap";
+
+    // $filePath: '/app/Pages/Header/views/img/';
+
+
+/***********************************************
+ ** 320px Default - Ideal for old IE & mobile **
+ ** No media query, no CSS3 properties        **
+ ***********************************************/
+
+
+
+/*************************************************************
+ ** 320px Enhanced - Ideal for mobile                       **
+ ** Inherits from 320px standard                            **
+ ** Media query checks for CSS3 support. Has touch support. **
+ *************************************************************/
+
+    @media #{$mq-smallest} {
+
+        #header {
+            margin: 10px 0;
+            font-family: $lt-i;
+            font-size: 28px;
+            color: lighten(#000, 80%);
+        }
+
+    } // end $smallest
+
+
+/*******************************************************
+ ** 480px - Ideal for iPhone Landscape, other mobiles **
+ ** Inherits from 320px Standard, and 320px Enhanced  **
+ ** Has touch support                                 **
+ *******************************************************/
+
+    @media #{$mq-small} {
+
+        #header {}
+
+    } // end $small
+
+
+/*************************************************************
+ ** 720px - Ideal for iPad Portrait                         **
+ ** Inherits from 320px Standard, 320px Enhanced, and 480px **
+ ** Has touch support.                                      **
+ *************************************************************/
+
+    @media #{$mq-medium} {
+
+        #header {}
+
+    } // end $medium
+
+
+/************************************************************
+ ** 960px - Ideal for most browser screens, iPad Landscape **
+ ** Inherits all the things.                               **
+ ** Has touch support.                                     **
+ ************************************************************/
+
+    @media #{$mq-large} {
+
+        #header {}
+
+    } // end $large
+
+
+/**********************************************
+ ** 1200px - Ideal for wider browser screens **
+ ** Inherits all the things.                 **
+ ** Has touch support.                       **
+ **********************************************/
+
+    @media #{$mq-largest} {
+
+        #header {}
+
+    } // end $largest
+
+
+/***************************************************
+ ** Retina x2 - Should be used to replace images. **
+ ** Inherits nothing.                             **
+ ***************************************************/
+
+    @media #{$mq-retina} {}
