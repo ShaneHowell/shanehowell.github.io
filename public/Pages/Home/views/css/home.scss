@@ -1,0 +1,131 @@
+/**
+ * @file            header.scss
+ * @compiles-to     header.css
+ * @imports-to      Layout files
+ * @author          Shane Howell <@shane_howell>
+ */
+
+
+/*************
+ ** Imports **
+ *************/
+
+    @import "../../../../Core/partials/bootstrap";
+
+    // $filePath: '/app/Pages/Header/views/img/';
+
+
+/***********************************************
+ ** 320px Default - Ideal for old IE & mobile **
+ ** No media query, no CSS3 properties        **
+ ***********************************************/
+
+
+
+/*************************************************************
+ ** 320px Enhanced - Ideal for mobile                       **
+ ** Inherits from 320px standard                            **
+ ** Media query checks for CSS3 support. Has touch support. **
+ *************************************************************/
+
+    @media #{$mq-smallest} {
+
+        #home {
+            ul {
+                list-style-type: none;
+            }
+
+            li {
+                display: inline-block;
+                width: 147px;
+                height: 147px;
+                border-radius: 50%;
+                background-clip: padding-box;
+                overflow: hidden;
+                
+                // This and traslate3d are a fix for 
+                // border-radius detaching during animation.
+                backface-visibility: hidden; 
+                transform: translate3d(0, 0, 0);
+
+                img {
+                    position: relative;
+                    top: 50%; left: 50%;
+                    transform: translate(-50%, -50%);
+                    filter: grayscale(100%);
+                    filter: url("data:image/svg+xml;utf8, <?xml version="1.0" encoding="UTF-8"?><svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+                    filter: gray; // Must be last for IE9.
+                    transition: filter .3s ease-in-out 0s;
+                }
+
+                a {
+                    &:hover {
+                        img {
+                            filter: none;
+                        }
+                    }
+                }
+            }
+        }
+
+    } // end $smallest
+
+
+/*******************************************************
+ ** 480px - Ideal for iPhone Landscape, other mobiles **
+ ** Inherits from 320px Standard, and 320px Enhanced  **
+ ** Has touch support                                 **
+ *******************************************************/
+
+    @media #{$mq-small} {
+
+        #home {}
+
+    } // end $small
+
+
+/*************************************************************
+ ** 720px - Ideal for iPad Portrait                         **
+ ** Inherits from 320px Standard, 320px Enhanced, and 480px **
+ ** Has touch support.                                      **
+ *************************************************************/
+
+    @media #{$mq-medium} {
+
+        #home {}
+
+    } // end $medium
+
+
+/************************************************************
+ ** 960px - Ideal for most browser screens, iPad Landscape **
+ ** Inherits all the things.                               **
+ ** Has touch support.                                     **
+ ************************************************************/
+
+    @media #{$mq-large} {
+
+        #home {}
+
+    } // end $large
+
+
+/**********************************************
+ ** 1200px - Ideal for wider browser screens **
+ ** Inherits all the things.                 **
+ ** Has touch support.                       **
+ **********************************************/
+
+    @media #{$mq-largest} {
+
+        #home {}
+
+    } // end $largest
+
+
+/***************************************************
+ ** Retina x2 - Should be used to replace images. **
+ ** Inherits nothing.                             **
+ ***************************************************/
+
+    @media #{$mq-retina} {}
