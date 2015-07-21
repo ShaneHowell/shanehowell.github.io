@@ -31,7 +31,7 @@
     @media #{$mq-smallest} {
 
         #header {
-            margin: 10px 0;
+            padding: 10px 0;
             font-family: $lt-i;
             font-size: 28px;
             color: lighten(#000, 80%);
