@@ -1,4 +1,4 @@
 .DS_Store
 .vagrant
 /node_modules
-/public/libs
+/app/libs

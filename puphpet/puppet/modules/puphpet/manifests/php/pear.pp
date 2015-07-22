@@ -3,7 +3,8 @@
  */
 
 define puphpet::php::pear (
-  $service_autorestart
+  $service_name        = '',
+  $service_autorestart,
 ){
 
   $package = {
@@ -15,7 +16,9 @@ define puphpet::php::pear (
     'pear_command_packaging'    => 'alpha',
     'pear_frontend_gtk2'        => false,
     'php_beautifier'            => 'beta',
+    'php_parser'                => 'alpha',
     'php_parser_docblockparser' => 'alpha',
+    'soap'                      => 'beta',
     'testing_selenium'          => 'beta',
     'versioncontrol_git'        => 'alpha',
     'versioncontrol_svn'        => 'alpha',
@@ -34,11 +37,15 @@ define puphpet::php::pear (
     $preferred_state = 'stable'
   }
 
-  if $package_name and $preferred_state and ! defined(::Php::Pear::Module[$package_name]) {
+  if $package_name and $preferred_state
+    and ! defined(::Php::Pear::Module[$package_name])
+    and $puphpet::php::settings::enable_pear
+  {
     ::php::pear::module { $name:
       use_package         => false,
       preferred_state     => $preferred_state,
-      service_autorestart => $php_webserver_restart,
+      service             => $service_name,
+      service_autorestart => $service_autorestart,
     }
   }
 
