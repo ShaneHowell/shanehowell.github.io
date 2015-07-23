@@ -18,13 +18,13 @@ var gulp         = require('gulp'),
     concat       = require('gulp-concat'),
     autoprefixer = require('gulp-autoprefixer'),
     reload       = browserSync.reload,
-    srcPath      = 'public/',
-    distPath     = 'public/',
-    buildPath    = 'public/',
-    indexPath    = 'public/',
-    templatePath = 'public/',
-    concatCss    = 'public/allthe.css',
-    concatJs     = 'public/allthe.js'
+    srcPath      = 'app/',
+    distPath     = 'app/',
+    buildPath    = 'app/',
+    indexPath    = 'app/',
+    templatePath = 'app/',
+    concatCss    = 'app/allthe.css',
+    concatJs     = 'app/allthe.js'
     ;
 
 
