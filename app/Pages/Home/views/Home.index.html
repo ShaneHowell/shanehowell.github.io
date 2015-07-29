@@ -1,38 +1,8 @@
 <section id="home" ng-controller="ProjectController">
     
     <ul>
-        <li>
-            <a href="">
-                <img src="http://lorempixel.com/400/200/" alt="">
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <img src="http://lorempixel.com/400/200/" alt="">
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <img src="http://lorempixel.com/400/200/" alt="">
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <img src="http://lorempixel.com/400/200/" alt="">
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <img src="http://lorempixel.com/400/200/" alt="">
-            </a>
-        </li>
-        <li>
-            <a href="">
-                <img src="http://lorempixel.com/400/200/" alt="">
-            </a>
-        </li>
-        <li>
-            <a href="">
+        <li ng-repeat="project in projects">
+            <a href="" title="{{ project.title }}">
                 <img src="http://lorempixel.com/400/200/" alt="">
             </a>
         </li>

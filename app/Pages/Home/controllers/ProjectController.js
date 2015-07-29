@@ -4,7 +4,9 @@
 
         .controller("ProjectController", ['$scope', 'ProjectsService', function($scope, ProjectsService) {
 
-            console.log(ProjectsService.projects);
+            $scope.projects = ProjectsService.projects;
+
+            console.log($scope.projects);
 
         }]);
 

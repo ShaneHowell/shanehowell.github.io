@@ -63,7 +63,17 @@
                             templateUrl: 'Pages/Footer/views/Footer.index.html'
                         }
                     }
-                });
+                })
+
+                    // Home Page
+                    .state('root.home', {
+                        url: '/',
+                        views: {
+                            'pages@': {
+                                templateUrl: 'Pages/Home/views/Home.index.html'
+                            },
+                        }
+                    });
 
         }]);
 
