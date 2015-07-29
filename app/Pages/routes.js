@@ -73,7 +73,20 @@
                                 templateUrl: 'Pages/Home/views/Home.index.html'
                             },
                         }
-                    });
+                    })
+
+                        // Detail Page
+                        .state('root.home.details', {
+                            url: 'project/:slug',
+                            data: {
+                                pageTitle: 'Project' + defaultTitle,
+                            },
+                            views: {
+                                'pages@': {
+                                    templateUrl: 'Pages/Details/views/Details.index.html'
+                                },
+                            }
+                        });
 
         }]);
 
