@@ -77,7 +77,7 @@
 
                         // Detail Page
                         .state('root.home.details', {
-                            url: 'project/:slug',
+                            url: ':slug',
                             data: {
                                 pageTitle: 'Project' + defaultTitle,
                             },
