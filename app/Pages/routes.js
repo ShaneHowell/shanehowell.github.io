@@ -47,6 +47,14 @@
                     data: {
                         pageTitle: 'Shane Howell'
                     },
+                    resolve: {
+                        projects: function(ProjectsApiService) {
+                            return ProjectsApiService.getProjects();
+                        },
+                        init: function(ProjectsService, projects) {
+                            return ProjectsService.init(projects.data);
+                        }
+                    },
                     views: {
                         'header': {
                             templateUrl: 'Pages/Header/views/Header.index.html'

@@ -1,0 +1,24 @@
+{
+    "projects": [
+        {
+            "slug": "project-one",
+            "title": "project 1",
+            "copy": "this is project one"
+        },
+        {
+            "slug": "project-two",
+            "title": "project 2",
+            "copy": "this is project two"
+        },
+        {
+            "slug": "project-three",
+            "title": "project 3",
+            "copy": "this is project three"
+        },
+        {
+          "slug": "project-four",
+          "title": "project 4",
+          "copy": "this is project four"
+        }
+    ]
+}
