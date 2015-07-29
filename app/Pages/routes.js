@@ -52,7 +52,7 @@
                             return ProjectsApiService.getProjects();
                         },
                         init: function(ProjectsService, projects) {
-                            return ProjectsService.init(projects.data);
+                            return ProjectsService.init(projects.data.projects);
                         }
                     },
                     views: {
