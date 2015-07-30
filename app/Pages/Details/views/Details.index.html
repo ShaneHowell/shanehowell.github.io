@@ -1,6 +1,22 @@
 <section id="details" ng-controller="DetailsController">
 
-    {{ project.title }}
+    <div class="container">
+        <div class="images">
+            <img src="http://lorempixel.com/584/467" />
+            <img src="http://lorempixel.com/584/467" />
+        </div>
+    </div><!-- .conatiner -->
+
+    <br><br>
+
+    <span ng-repeat="image in project.images track by $index">
+        {{ image }}
+    </span>
+
+    <br><br>
+
+    {{ project.title }}<br>
+    {{ project.images }}<br>
     {{ project }}
 
 </section>

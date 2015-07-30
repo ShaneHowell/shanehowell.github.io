@@ -3,7 +3,11 @@
         {
             "slug": "project-one",
             "title": "project 1",
-            "copy": "this is project one"
+            "images": [
+                "http://lorempixel.com/584/467",
+                "http://lorempixel.com/584/467"
+            ],
+            "copy": "Lorizzle ipsizzle dolizzle sit amizzle, consectetuer adipiscing bling bling. Gangster boofron velizzle, aliquet volutpizzle, brizzle, gravida vizzle, arcu. Pellentesque dizzle yippiyo. Sed erizzle. Away at dolizzle sheezy turpis rizzle we gonna chung. Maurizzle pellentesque nibh et turpis. Bling bling izzle dizzle. Fo eleifend get down get down fo shizzle. In hac things fo shizzle my nizzle phat. Shizznit dapibizzle. Bow wow wow its fo rizzle urna, pretizzle eu, mattizzle izzle, eleifend vitae, nunc. Break it down suscipizzle. Integizzle semper sizzle doggy boofron."
         },
         {
             "slug": "project-two",
