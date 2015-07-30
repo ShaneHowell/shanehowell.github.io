@@ -34,7 +34,15 @@
             padding: 20px 0;
             font-family: $lt-i;
             font-size: 28px;
-            color: lighten(#000, 80%);
+
+            a {
+                color: lighten(#000, 80%);
+                transition: color .3s ease-in-out 0s;
+
+                &:hover {
+                    color: lighten(#000, 70%);
+                }                
+            }
         }
 
     } // end $smallest
