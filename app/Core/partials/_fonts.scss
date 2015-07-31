@@ -69,3 +69,52 @@ $fontLocation: '/Fonts';
         font-style: normal;
 
     }
+
+
+
+/**
+ *  Baskerville
+ */
+
+    $ba: "libre_baskervilleregular", Arial, sans-serif;
+    $ba-i: "libre_baskervilleitalic", Arial, sans-serif;
+    $ba-b: "libre_baskervillebold", Arial, sans-serif;
+
+    @font-face {
+        font-family: 'libre_baskervilleregular';
+        src: url('#{$fontLocation}/baskerville/librebaskerville-regular-webfont.eot');
+        src: url('#{$fontLocation}/baskerville/librebaskerville-regular-webfont.eot?#iefix') format('embedded-opentype'),
+             url('#{$fontLocation}/baskerville/librebaskerville-regular-webfont.woff2') format('woff2'),
+             url('#{$fontLocation}/baskerville/librebaskerville-regular-webfont.woff') format('woff'),
+             url('#{$fontLocation}/baskerville/librebaskerville-regular-webfont.ttf') format('truetype'),
+             url('#{$fontLocation}/baskerville/librebaskerville-regular-webfont.svg#libre_baskervilleregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'libre_baskervilleitalic';
+        src: url('#{$fontLocation}/baskerville/librebaskerville-italic-webfont.eot');
+        src: url('#{$fontLocation}/baskerville/librebaskerville-italic-webfont.eot?#iefix') format('embedded-opentype'),
+             url('#{$fontLocation}/baskerville/librebaskerville-italic-webfont.woff2') format('woff2'),
+             url('#{$fontLocation}/baskerville/librebaskerville-italic-webfont.woff') format('woff'),
+             url('#{$fontLocation}/baskerville/librebaskerville-italic-webfont.ttf') format('truetype'),
+             url('#{$fontLocation}/baskerville/librebaskerville-italic-webfont.svg#libre_baskervilleitalic') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+    @font-face {
+        font-family: 'libre_baskervillebold';
+        src: url('#{$fontLocation}/baskerville/librebaskerville-bold-webfont.eot');
+        src: url('#{$fontLocation}/baskerville/librebaskerville-bold-webfont.eot?#iefix') format('embedded-opentype'),
+             url('#{$fontLocation}/baskerville/librebaskerville-bold-webfont.woff2') format('woff2'),
+             url('#{$fontLocation}/baskerville/librebaskerville-bold-webfont.woff') format('woff'),
+             url('#{$fontLocation}/baskerville/librebaskerville-bold-webfont.ttf') format('truetype'),
+             url('#{$fontLocation}/baskerville/librebaskerville-bold-webfont.svg#libre_baskervillebold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
