@@ -10,6 +10,12 @@
                 <h1>{{ project.title }}</h1>
 
                 {{ project.copy }}
+
+                <div class="project-nav">
+                    <a ui-sref="root.home.details({ slug: np.prev })" class="prev" ng-if="np.prev">Previous</a>
+                    <a ui-sref="root.home" class="home">Home</a>
+                    <a ui-sref="root.home.details({ slug: np.next })" class="next" ng-if="np.next">Next</a>
+                </div>
             </div>
 
             <div class="right">
@@ -18,11 +24,6 @@
                         {{ tag }}
                     </li>
                 </ul>
-            </div>
-
-            <div class="project-nav">
-                <a ui-sref="root.home.details({ slug: np.prev })" class="prev" ng-if="np.prev">Previous</a>
-                <a ui-sref="root.home.details({ slug: np.next })" class="next" ng-if="np.next">Next</a>
             </div>
         </div><!-- .copy -->
     </div><!-- .conatiner -->
