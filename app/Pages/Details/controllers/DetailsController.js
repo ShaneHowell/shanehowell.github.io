@@ -8,6 +8,11 @@
                 slug: $stateParams.slug
             }, true)[0];
 
+            $scope.np = {
+                next: ProjectsService.getNext($scope.project),
+                prev: ProjectsService.getPrev($scope.project)
+            };
+
         }]);
 
 })();
