@@ -2,21 +2,21 @@
 
     <div class="container">
         <div class="images">
-            <img src="http://lorempixel.com/584/467" />
-            <img src="http://lorempixel.com/584/467" />
+            <img ng-repeat="image in project.images track by $index" ng-src="{{ image }}">
+        </div>
+
+        <div class="copy">
+            <h1>{{ project.title }}</h1>
+
+            {{ project.copy }}
         </div>
     </div><!-- .conatiner -->
+    
 
     <br><br>
 
-    <span ng-repeat="image in project.images track by $index">
-        {{ image }}
-    </span>
-
-    <br><br>
-
-    {{ project.title }}<br>
+    <!-- {{ project.title }}<br>
     {{ project.images }}<br>
-    {{ project }}
+    {{ project }} -->
 
 </section>

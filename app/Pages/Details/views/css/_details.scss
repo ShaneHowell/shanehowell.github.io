@@ -32,12 +32,28 @@
 
         #details {
             .container {
-                background: tomato;
+                // background: tomato;
             }
 
             .images {
                 img {
                     width: 100%;
+                }
+            }
+
+            .copy {
+                padding: 15px 0 0 0;
+                font-family: $ssp;
+                font-size: 14px;
+                line-height: 20px;
+
+                h1 {
+                    margin: 0 0 10px 0;
+                    font-family: $ba-b;
+                    font-size: 20px;
+                    letter-spacing: 1px;
+                    font-weight: normal;
+                    text-transform: uppercase;
                 }
             }
         }
@@ -78,6 +94,12 @@
                     }
                 }
             }
+
+            .copy {
+                width: cols(7);
+                margin: 0 auto;
+                padding: 50px 0 0 0;
+            }
         }
 
     } // end $medium
@@ -98,6 +120,10 @@
                         margin-right: 5px;
                     }
                 }
+            }
+
+            .copy {
+                width: cols(9);
             }
         }
 
