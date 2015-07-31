@@ -127,8 +127,6 @@ $fontLocation: '/Fonts';
 
     $ssp: "source_sans_proregular", Arial, sans-serif;
     $ssp-i: "source_sans_proitalic", Arial, sans-serif;
-    $ssp-l: "source_sans_prolight", Arial, sans-serif;
-    $ssp-li: "source_sans_prolight_italic", Arial, sans-serif;
     $ssp-sb: "source_sans_prosemibold", Arial, sans-serif;
     $ssp-sbi: "source_sans_proSBdIt", Arial, sans-serif;
 
@@ -153,32 +151,6 @@ $fontLocation: '/Fonts';
              url('#{$fontLocation}/source-sans-pro/sourcesanspro-it-webfont.woff') format('woff'),
              url('#{$fontLocation}/source-sans-pro/sourcesanspro-it-webfont.ttf') format('truetype'),
              url('#{$fontLocation}/source-sans-pro/sourcesanspro-it-webfont.svg#source_sans_proitalic') format('svg');
-        font-weight: normal;
-        font-style: normal;
-
-    }
-
-    @font-face {
-        font-family: 'source_sans_prolight';
-        src: url('#{$fontLocation}/source-sans-pro/sourcesanspro-light-webfont.eot');
-        src: url('#{$fontLocation}/source-sans-pro/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
-             url('#{$fontLocation}/source-sans-pro/sourcesanspro-light-webfont.woff2') format('woff2'),
-             url('#{$fontLocation}/source-sans-pro/sourcesanspro-light-webfont.woff') format('woff'),
-             url('#{$fontLocation}/source-sans-pro/sourcesanspro-light-webfont.ttf') format('truetype'),
-             url('#{$fontLocation}/source-sans-pro/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
-        font-weight: normal;
-        font-style: normal;
-
-    }
-
-    @font-face {
-        font-family: 'source_sans_prolight_italic';
-        src: url('#{$fontLocation}/source-sans-pro/sourcesanspro-lightit-webfont.eot');
-        src: url('#{$fontLocation}/source-sans-pro/sourcesanspro-lightit-webfont.eot?#iefix') format('embedded-opentype'),
-             url('#{$fontLocation}/source-sans-pro/sourcesanspro-lightit-webfont.woff2') format('woff2'),
-             url('#{$fontLocation}/source-sans-pro/sourcesanspro-lightit-webfont.woff') format('woff'),
-             url('#{$fontLocation}/source-sans-pro/sourcesanspro-lightit-webfont.ttf') format('truetype'),
-             url('#{$fontLocation}/source-sans-pro/sourcesanspro-lightit-webfont.svg#source_sans_prolight_italic') format('svg');
         font-weight: normal;
         font-style: normal;
 
