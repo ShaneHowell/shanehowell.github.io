@@ -55,6 +55,12 @@
                     font-weight: normal;
                     text-transform: uppercase;
                 }
+
+                .left {}
+
+                .right {
+                    display: none;
+                }
             }
         }
 
@@ -111,9 +117,33 @@
                 padding: 50px 0 0 0;
                 font-size: 15px;
                 line-height: 26px;
-
+                               
                 h1 {
                     font-size: 26px;
+                }
+
+                .left {
+                    display: inline-block;
+                    width: cols(5.28);
+                }
+
+                .right {
+                    display: inline-block;
+                    margin: 0 0 0 20px;
+                    padding: 5px 15px 5px 35px;
+                    vertical-align: top;
+                    background: lighten(#ccc, 16%);
+
+                    ul {
+                        list-style-type: none;
+                    }
+
+                    li {
+                        &:before {
+                            content: "\00BB";
+                            margin: 0 10px 0 -20px;
+                        }
+                    }
                 }
             }
         }
@@ -140,6 +170,10 @@
 
             .copy {
                 width: cols(9);
+
+                .left {
+                    width: cols(7.27);
+                }
             }
         }
 

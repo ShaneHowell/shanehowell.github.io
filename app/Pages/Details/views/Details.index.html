@@ -6,10 +6,20 @@
         </div>
 
         <div class="copy">
-            <h1>{{ project.title }}</h1>
+            <div class="left">
+                <h1>{{ project.title }}</h1>
 
-            {{ project.copy }}
-        </div>
+                {{ project.copy }}
+            </div>
+
+            <div class="right">
+                <ul>
+                    <li ng-repeat="tag in project.tags">
+                        {{ tag }}
+                    </li>
+                </ul>
+            </div>
+        </div><!-- .copy -->
     </div><!-- .conatiner -->
     
 
