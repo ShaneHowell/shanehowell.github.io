@@ -69,7 +69,17 @@
 
     @media #{$mq-small} {
 
-        #details {}
+        #details {
+            .images {
+                img {
+                    width: 49.5%;
+
+                    &:nth-of-type(1) {
+                        margin-right: 4px;
+                    }
+                }
+            }
+        }
 
     } // end $small
 
@@ -90,7 +100,7 @@
                     margin-right: -4px;
 
                     &:nth-of-type(1) {
-                        margin-right: 2px;
+                        margin-right: 7px;
                     }
                 }
             }
@@ -99,6 +109,12 @@
                 width: cols(7);
                 margin: 0 auto;
                 padding: 50px 0 0 0;
+                font-size: 15px;
+                line-height: 26px;
+
+                h1 {
+                    font-size: 26px;
+                }
             }
         }
 
@@ -117,7 +133,7 @@
             .images {
                 img {
                     &:nth-of-type(1) {
-                        margin-right: 5px;
+                        margin-right: 9px;
                     }
                 }
             }
@@ -142,7 +158,7 @@
             .images {
                 img {
                     &:nth-of-type(1) {
-                        margin-right: 8px;
+                        margin-right: 12px;
                     }
                 }
             }
