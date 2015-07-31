@@ -52,6 +52,7 @@
                     font-family: $ba-b;
                     font-size: 20px;
                     letter-spacing: 1px;
+                    line-height: 32px;
                     font-weight: normal;
                     text-transform: uppercase;
                 }
@@ -132,6 +133,7 @@
                     margin: 0 0 0 20px;
                     padding: 5px 15px 5px 35px;
                     vertical-align: top;
+                    font-family: $ssp-i;
                     background: lighten(#ccc, 16%);
 
                     ul {
