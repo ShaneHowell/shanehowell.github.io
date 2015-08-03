@@ -74,13 +74,31 @@
 
                         // Detail Page
                         .state('root.home.details', {
-                            url: ':slug',
+                            url: 'projects/:slug',
                             views: {
                                 'pages@': {
                                     templateUrl: 'Pages/Details/views/Details.index.html'
                                 },
                             }
-                        });
+                        })
+
+                    // About Page
+                    .state('root.about', {
+                        url: '/about',
+                        resolve: {
+                            about: function(AboutApiService) {
+                                return AboutApiService.getAbout();
+                            },
+                            init: function(AboutService, about) {
+                                return AboutService.init(about.data.about);
+                            }
+                        },
+                        views: {
+                            'pages@': {
+                                templateUrl: 'Pages/About/views/About.index.html'
+                            },
+                        }
+                    });
 
         }]);
 
