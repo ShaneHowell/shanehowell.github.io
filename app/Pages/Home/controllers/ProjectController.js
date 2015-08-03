@@ -2,9 +2,9 @@
 
     angular.module('sh')
 
-        .controller("ProjectController", ['$scope', 'ProjectsService', function($scope, ProjectsService) {
+        .controller("ProjectController", ['$scope', 'DataService', function($scope, DataService) {
 
-            $scope.projects = ProjectsService.projects;
+            $scope.projects = DataService.projects;
 
         }]);
 

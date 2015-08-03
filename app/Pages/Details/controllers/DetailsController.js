@@ -2,18 +2,18 @@
 
     angular.module('sh')
 
-        .controller("DetailsController", ['$scope', '$filter', '$stateParams', 'ProjectsService', function($scope, $filter, $stateParams, ProjectsService) {
+        .controller("DetailsController", ['$scope', '$filter', '$stateParams', 'DataService', function($scope, $filter, $stateParams, DataService) {
 
-            $scope.project = $filter('filter')(ProjectsService.projects, {
+            $scope.project = $filter('filter')(DataService.projects, {
                 slug: $stateParams.slug
             }, true)[0];
 
             $scope.np = {
-                next: ProjectsService.getNext($scope.project),
-                prev: ProjectsService.getPrev($scope.project)
+                next: DataService.getNextProject($scope.project),
+                prev: DataService.getPrevProject($scope.project)
             };
 
-            $scope.pageTitle = ProjectsService.getTitle($scope.project);
+            $scope.pageTitle = DataService.getProjectTitle($scope.project);
 
         }]);
 

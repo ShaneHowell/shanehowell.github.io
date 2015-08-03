@@ -3,23 +3,25 @@
     // Call the module from app.
     angular.module('sh')
 
-        .factory("ProjectsService", ['ProjectsApiService', function(ProjectsApiService) {
+        .factory("DataService", ['DataApiService', function(DataApiService) {
 
             var Service = {
 
                 projects: null,
+                about: null,
 
-                init: function(projects) {
+                init: function(projects, about) {
                     Service.projects = projects;
+                    Service.about = about;
                 },
 
-                getTitle: function(projects) {
+                getProjectTitle: function(projects) {
                     var index = Service.projects.indexOf(projects);
 
                     return Service.projects[index].title;
                 },
 
-                getPrev: function(projects) {
+                getPrevProject: function(projects) {
                     var index = Service.projects.indexOf(projects);
 
                     if (index > 0) {
@@ -29,7 +31,7 @@
                     return null;
                 },
 
-                getNext: function(projects) {
+                getNextProject: function(projects) {
                     var index = Service.projects.indexOf(projects);
 
                     if (index < Service.projects.length - 1) {

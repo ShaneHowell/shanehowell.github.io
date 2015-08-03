@@ -45,11 +45,14 @@
                     url: '',
                     abstract: true,
                     resolve: {
-                        projects: function(ProjectsApiService) {
-                            return ProjectsApiService.getProjects();
+                        projects: function(DataApiService) {
+                            return DataApiService.getProjects();
                         },
-                        init: function(ProjectsService, projects) {
-                            return ProjectsService.init(projects.data.projects);
+                        about: function(DataApiService) {
+                            return DataApiService.getAbout();
+                        },
+                        init: function(DataService, projects, about) {
+                            return DataService.init(projects.data.projects, about.data.about);
                         }
                     },
                     views: {
@@ -85,14 +88,6 @@
                     // About Page
                     .state('root.about', {
                         url: '/about',
-                        resolve: {
-                            about: function(AboutApiService) {
-                                return AboutApiService.getAbout();
-                            },
-                            init: function(AboutService, about) {
-                                return AboutService.init(about.data.about);
-                            }
-                        },
                         views: {
                             'pages@': {
                                 templateUrl: 'Pages/About/views/About.index.html'

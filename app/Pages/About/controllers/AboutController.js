@@ -2,11 +2,9 @@
 
     angular.module('sh')
 
-        .controller("AboutController", ['$scope', 'AboutService', function($scope, AboutService) {
+        .controller("AboutController", ['$scope', 'DataService', function($scope, DataService) {
 
-            $scope.about = AboutService.about;
-
-            console.log($scope.about);
+            $scope.about = DataService.about;
 
         }]);
 
