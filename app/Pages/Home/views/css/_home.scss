@@ -48,6 +48,8 @@
                 // border-radius detaching during animation.
                 backface-visibility: hidden; 
                 transform: translate3d(0, 0, 0);
+                // Safart fix for border-radius showing during transition.
+                -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 
                 &:nth-child(odd) {
                     margin-right: 5px;
