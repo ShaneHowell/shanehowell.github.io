@@ -32,8 +32,36 @@
 
         #header {
             padding: 20px 0;
-            font-family: $lt-i;
-            font-size: 28px;
+
+            .container {                
+                position: relative;
+            }
+
+            nav {
+                position: absolute;
+                top: 7px; right: 0;
+
+                ul {
+                    list-style-type: none;
+                }
+
+                li {
+                    display: inline-block;
+
+                    &:first-child {
+                        margin-right: 10px;
+                    }
+                }
+
+                a {
+                    font-family: $lt-i;
+
+                    &.active {
+                        color: lighten(#000, 60%);
+                        cursor: default;
+                    }
+                }
+            }
 
             a {
                 color: lighten(#000, 80%);
@@ -41,7 +69,12 @@
 
                 &:hover {
                     color: lighten(#000, 70%);
-                }                
+                } 
+
+                &.home {                    
+                    font-family: $lt-i;
+                    font-size: 28px;
+                }               
             }
         }
 
@@ -71,7 +104,26 @@
 
         #header {
             padding: 50px 0;
-            font-size: 34px;
+
+            nav {
+                top: 10px;
+
+                li {
+                    &:first-child {
+                        margin-right: 20px;
+                    }
+                }
+
+                a {
+                    font-size: 20px;
+                }
+            }
+
+            a {
+                &.home {                    
+                    font-size: 34px;
+                }
+            }
         }
 
     } // end $medium
@@ -86,8 +138,19 @@
     @media #{$mq-large} {
 
         #header {
-            // padding: 50px 0;
-            font-size: 38px;
+            nav {
+                top: 10px;
+
+                a {
+                    font-size: 24px;
+                }
+            }
+
+            a {
+                &.home {
+                    font-size: 38px;
+                }
+            }
         }
 
     } // end $large
