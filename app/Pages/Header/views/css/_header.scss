@@ -56,10 +56,10 @@
                 a {
                     font-family: $lt-i;
 
-                    &.active {
-                        color: lighten(#000, 60%);
-                        cursor: default;
-                    }
+                    // &.active {
+                    //     color: lighten(#000, 60%);
+                    //     cursor: default;
+                    // }
                 }
             }
 
