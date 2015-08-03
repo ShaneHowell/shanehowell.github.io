@@ -6,8 +6,6 @@
 
             $scope.projects = ProjectsService.projects;
 
-            console.log($scope.projects);
-
         }]);
 
 })();
