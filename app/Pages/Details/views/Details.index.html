@@ -1,5 +1,7 @@
 <section id="details" ng-controller="DetailsController">
 
+    <view-title>{{ pageTitle }} // Shane Howell</view-title>
+
     <div class="container">
         <div class="images">
             <img ng-repeat="image in project.images track by $index" ng-src="{{ image }}">

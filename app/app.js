@@ -4,6 +4,7 @@
     var sh = angular.module('sh', [
                                     "ui.router",
                                     "ngAnimate",
+                                    "viewhead"
                                   ]);
 
     sh.run(['$rootScope', '$state', '$timeout', function($rootScope, $state, $timeout) {

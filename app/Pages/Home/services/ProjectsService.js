@@ -13,6 +13,12 @@
                     Service.projects = projects;
                 },
 
+                getTitle: function(projects) {
+                    var index = Service.projects.indexOf(projects);
+
+                    return Service.projects[index].title;
+                },
+
                 getPrev: function(projects) {
                     var index = Service.projects.indexOf(projects);
 

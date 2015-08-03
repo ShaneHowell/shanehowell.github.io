@@ -44,9 +44,6 @@
                 .state('root', {
                     url: '',
                     abstract: true,
-                    data: {
-                        pageTitle: 'Shane Howell'
-                    },
                     resolve: {
                         projects: function(ProjectsApiService) {
                             return ProjectsApiService.getProjects();
@@ -78,9 +75,6 @@
                         // Detail Page
                         .state('root.home.details', {
                             url: ':slug',
-                            data: {
-                                pageTitle: 'Project' + defaultTitle,
-                            },
                             views: {
                                 'pages@': {
                                     templateUrl: 'Pages/Details/views/Details.index.html'

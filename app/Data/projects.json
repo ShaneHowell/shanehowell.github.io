@@ -2,7 +2,7 @@
     "projects": [
         {
             "slug": "project-one",
-            "title": "project 1",
+            "title": "Project 1",
             "images": [
                 "http://lorempixel.com/584/467",
                 "http://lorempixel.com/584/467"
@@ -18,37 +18,37 @@
         },
         {
             "slug": "project-two",
-            "title": "project 2",
+            "title": "Project 2",
             "copy": "this is project two"
         },
         {
             "slug": "project-three",
-            "title": "project 3",
+            "title": "Project 3",
             "copy": "this is project three"
         },
         {
           "slug": "project-four",
-          "title": "project 4",
+          "title": "Project 4",
           "copy": "this is project four"
         },
         {
             "slug": "project-five",
-            "title": "project 5",
+            "title": "Project 5",
             "copy": "this is project five"
         },
         {
             "slug": "project-six",
-            "title": "project 6",
+            "title": "Project 6",
             "copy": "this is project six"
         },
         {
             "slug": "project-seven",
-            "title": "project 7",
+            "title": "Project 7",
             "copy": "this is project seven"
         },
         {
           "slug": "project-eight",
-          "title": "project 8",
+          "title": "Project 8",
           "copy": "this is project eight"
         }
     ]

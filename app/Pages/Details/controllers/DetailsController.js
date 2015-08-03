@@ -13,6 +13,8 @@
                 prev: ProjectsService.getPrev($scope.project)
             };
 
+            $scope.pageTitle = ProjectsService.getTitle($scope.project);
+
         }]);
 
 })();
