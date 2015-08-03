@@ -34,9 +34,6 @@
 
             });
 
-            // Default Page Title
-            var defaultTitle = " // Shane Howell";
-
             // Nav States
             $stateProvider
 
