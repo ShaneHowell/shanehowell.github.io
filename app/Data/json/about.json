@@ -1,3 +1,17 @@
 {
-    "about": "Lorizzle ipsizzle dolizzle sit amizzle, consectetuer adipiscing bling bling. Gangster boofron velizzle, aliquet volutpizzle, brizzle, gravida vizzle, arcu. Pellentesque dizzle yippiyo. Sed erizzle. Away at dolizzle sheezy turpis rizzle we gonna chung. Maurizzle pellentesque nibh et turpis. Bling bling izzle dizzle. Fo eleifend get down get down fo shizzle. In hac things fo shizzle my nizzle phat. Shizznit dapibizzle. Bow wow wow its fo rizzle urna, pretizzle eu, mattizzle izzle, eleifend vitae, nunc. Break it down suscipizzle. Integizzle semper sizzle doggy boofron."
+    "copy": "<p>My name is Shane Howell, as i’m sure you guessed by the many visual cues that you can see here. Let me get something straight first before I go further into introducing myself, if you did a <a href=\"https://www.google.com/#q=Shane+Howell&safe=off\" target=\"_blank\">Google</a> search for my name and are looking for the MMA fighter then you have wandered into the wrong website but feel free to take a look around anyways. And don’t act like you’ve never googled yourself either because we all know you have.</p><p>I am a front-end web developer that loves all things web (well, almost all things… i’m looking at you 90′s). There’s not a day that goes by where I don’t learn something new and interesting whether it’s project related, life related, job related or just plain related to anything. I have a thirst for the thing called knowledge, as should everyone!</p>",
+    "social": [
+        {
+            "title": "Github",
+            "link": "https://github.com/ShaneHowell"
+        },
+        {
+            "title": "Twitter",
+            "link": "https://twitter.com/shane_howell"
+        },
+        {
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/shaneh"
+        }
+    ]
 }
