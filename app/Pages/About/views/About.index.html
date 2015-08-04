@@ -3,7 +3,13 @@
 <section id="about" ng-controller="AboutController">
     
     <div class="container">
-        {{ about }}
+        <div class="copy" ng-bind-html="about | sanitize"></div>
+
+        <ul>
+            <li ng-repeat="site in social">
+                <a href="{{ site.link }}" title="{{ site.title }}" target="_blank">{{ site.title }}</a>
+            </li>
+        </ul>
     </div>
 
 </section>

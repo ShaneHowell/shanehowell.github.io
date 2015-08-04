@@ -49,7 +49,7 @@
                             return DataApiService.getAbout();
                         },
                         init: function(DataService, projects, about) {
-                            return DataService.init(projects.data.projects, about.data.about);
+                            return DataService.init(projects.data.projects, about.data);
                         }
                     },
                     views: {

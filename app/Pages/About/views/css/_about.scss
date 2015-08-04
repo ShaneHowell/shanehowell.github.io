@@ -28,7 +28,52 @@
     @media #{$mq-smallest} {
 
         #about {
-            
+            p {
+                margin-bottom: 20px;
+                font-family: $ssp;
+                line-height: 24px;
+
+                a {
+                    font-family: $ssp-i;
+                    color: lighten(#000, 60%);
+                    transition: color .3s ease-in-out 0s;
+
+                    &:hover {
+                        color: lighten(#000, 70%);
+                    }
+                }
+            }
+
+            ul {
+                display: flex;
+                margin: 35px 0 20px 0;
+                flex-flow: row;
+                justify-content: space-around;
+                list-style-type: none;
+            }
+
+            li {
+                a {
+                    display: inline-block;
+                    width: cols(1.3);
+                    padding: 5px 0 4px 0;
+                    font-family: $ssp-i;
+                    text-align: center;
+                    color: lighten(#000, 75%);
+                    background: lighten(#ccc, 16%);
+                    transition: all .3s ease-in-out 0s;
+
+                    &:hover {
+                        color: lighten(#000, 55%);
+                        background: lighten(#ccc, 6%);
+                    }
+
+                    &:active {
+                        transform: scale(.96);
+                        background: lighten(#ccc, 6%);
+                    }
+                }
+            }
         }
 
     } // end $smallest
@@ -58,6 +103,16 @@
     @media #{$mq-medium} {
 
         #about {
+
+            .copy, 
+            ul {
+                width: cols(7);
+                margin: 0 auto;
+            }
+
+            ul {
+                margin-top: 45px;
+            }
             
         }
 
@@ -73,6 +128,11 @@
     @media #{$mq-large} {
 
         #about {
+
+            .copy,
+            ul {
+                width: cols(9);
+            }
             
         }
 
