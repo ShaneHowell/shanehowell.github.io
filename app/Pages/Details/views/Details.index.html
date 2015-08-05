@@ -9,7 +9,7 @@
 
         <div class="copy">
             <div class="left">
-                <h1>{{ project.title }}</h1>
+                <h1><a href="{{ project.url }}" title="{{ project.title }}" target="_blank">{{ project.title }}</a></h1>
 
                 <span ng-bind-html="project.copy | sanitize"></span>
 
