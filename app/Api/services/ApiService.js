@@ -12,10 +12,10 @@
 
                     $http(config).then(function(data) {
 
-                        $log.debug({
-                            url: data.config.url,
-                            response: data
-                        });
+                        // $log.debug({
+                        //     url: data.config.url,
+                        //     response: data
+                        // });
                         response.resolve(data);
 
                     }, function(error) {
