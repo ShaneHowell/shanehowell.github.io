@@ -11,7 +11,7 @@
             <div class="left">
                 <h1>{{ project.title }}</h1>
 
-                {{ project.copy }}
+                <span ng-bind-html="project.copy | sanitize"></span>
 
                 <div class="project-nav">
                     <a ui-sref="root.home.details({ slug: np.prev })" class="prev" ng-if="np.prev">Previous</a>
