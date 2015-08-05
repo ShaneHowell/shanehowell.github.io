@@ -1,55 +1,184 @@
 {
     "projects": [
         {
-            "slug": "project-one",
-            "title": "Project 1",
+            "slug": "airtype",
+            "title": "Airtype",
+            "url": "http://airtype.com/",
+            "mainImg": "airtype.jpg",
             "images": [
-                "http://lorempixel.com/584/467",
-                "http://lorempixel.com/584/467"
+                "one.jpg",
+                "two.jpg"
             ],
             "tags": [
-                "AngularJS",
-                "CSS3",
+                "HTML5",
+                "SCSS",
                 "SVG",
-                "Laravel",
+                "jQuery",
+                "Responsive",
+                "CraftCMS",
+                "Twig"
+            ],
+            "copy": "Lorizzle ipsum dolizzle sit amizzle, phat adipiscing shizzle my nizzle crocodizzle. Nullizzle sapien , shizzlin dizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle, for sure quizzle, gravida i'm in the shizzle, . Pellentesque dope tortizzle. Sizzle erizzle. izzle dolor dapibus turpis tempizzle tempor. Maurizzle pellentesque nibh et away. Sizzle izzle tortor. Pellentesque away rhoncizzle pimpin'. In i saw beyonces tizzles and my pizzle went crizzle habitasse platea dictumst. Gangsta . Gangster tellus check it out, pretizzle eu, mattizzle shizzlin dizzle, eleifend owned, nunc. Check it out suscipizzle. Integer cool mofo sed mofo."
+        },
+        {
+            "slug": "exnovo",
+            "title": "Ex Novo Brewing",
+            "url": "http://exnovobrew.com/",
+            "mainImg": "exnovo.jpg",
+            "images": [
+                "one.jpg",
+                "two.jpg"
+            ],
+            "tags": [
+                "HTML5",
+                "SCSS",
+                "SVG",
+                "jQuery",
+                "Responsive",
+                "CraftCMS",
+                "Twig"
+            ],
+            "copy": "Lorizzle ipsum dolizzle sit amizzle, phat adipiscing shizzle my nizzle crocodizzle. Nullizzle sapien , shizzlin dizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle, for sure quizzle, gravida i'm in the shizzle, . Pellentesque dope tortizzle. Sizzle erizzle. izzle dolor dapibus turpis tempizzle tempor. Maurizzle pellentesque nibh et away. Sizzle izzle tortor. Pellentesque away rhoncizzle pimpin'. In i saw beyonces tizzles and my pizzle went crizzle habitasse platea dictumst. Gangsta . Gangster tellus check it out, pretizzle eu, mattizzle shizzlin dizzle, eleifend owned, nunc. Check it out suscipizzle. Integer cool mofo sed mofo."
+        },
+        {
+            "slug": "phuzzphest",
+            "title": "Phuzz Phest",
+            "url": "http://phuzzphest.com/",
+            "mainImg": "phuzzphest.jpg",
+            "images": [
+                "one.jpg",
+                "two.jpg"
+            ],
+            "tags": [
+                "HTML5",
+                "SCSS",
+                "SVG",
+                "jQuery",
+                "Responsive",
+                "CraftCMS",
+                "Twig"
+            ],
+            "copy": "Lorizzle ipsum dolizzle sit amizzle, phat adipiscing shizzle my nizzle crocodizzle. Nullizzle sapien , shizzlin dizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle, for sure quizzle, gravida i'm in the shizzle, . Pellentesque dope tortizzle. Sizzle erizzle. izzle dolor dapibus turpis tempizzle tempor. Maurizzle pellentesque nibh et away. Sizzle izzle tortor. Pellentesque away rhoncizzle pimpin'. In i saw beyonces tizzles and my pizzle went crizzle habitasse platea dictumst. Gangsta . Gangster tellus check it out, pretizzle eu, mattizzle shizzlin dizzle, eleifend owned, nunc. Check it out suscipizzle. Integer cool mofo sed mofo."
+        },
+        {
+            "slug": "grizzly",
+            "title": "Grizzly",
+            "url": "http://mygrizzly.com/",
+            "mainImg": "grizzly.jpg",
+            "images": [],
+            "tags": [
+                "HTML5",
+                "SCSS",
+                "AngularJS",
+                "Responsive",
+                "CraftCMS"
+            ],
+            "copy": "Lorizzle ipsum dolizzle sit amizzle, phat adipiscing shizzle my nizzle crocodizzle. Nullizzle sapien , shizzlin dizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle, for sure quizzle, gravida i'm in the shizzle, . Pellentesque dope tortizzle. Sizzle erizzle. izzle dolor dapibus turpis tempizzle tempor. Maurizzle pellentesque nibh et away. Sizzle izzle tortor. Pellentesque away rhoncizzle pimpin'. In i saw beyonces tizzles and my pizzle went crizzle habitasse platea dictumst. Gangsta . Gangster tellus check it out, pretizzle eu, mattizzle shizzlin dizzle, eleifend owned, nunc. Check it out suscipizzle. Integer cool mofo sed mofo."
+        },
+        {
+            "slug": "nas",
+            "title": "Natural American Spirits",
+            "url": "https://www.nascigs.com",
+            "mainImg": "nas.jpg",
+            "images": [],
+            "tags": [
+                "HTML5",
+                "SCSS",
+                "AngularJS",
+                "SVG",
+                "Responsive"
+            ],
+            "copy": "Lorizzle ipsum dolizzle sit amizzle, phat adipiscing shizzle my nizzle crocodizzle. Nullizzle sapien , shizzlin dizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle, for sure quizzle, gravida i'm in the shizzle, . Pellentesque dope tortizzle. Sizzle erizzle. izzle dolor dapibus turpis tempizzle tempor. Maurizzle pellentesque nibh et away. Sizzle izzle tortor. Pellentesque away rhoncizzle pimpin'. In i saw beyonces tizzles and my pizzle went crizzle habitasse platea dictumst. Gangsta . Gangster tellus check it out, pretizzle eu, mattizzle shizzlin dizzle, eleifend owned, nunc. Check it out suscipizzle. Integer cool mofo sed mofo."
+        },
+        {
+            "slug": "hiphopfellow",
+            "title": "The Hip-Hop Fellow",
+            "url": "http://thehiphopfellow.com/",
+            "mainImg": "hiphopfellow.jpg",
+            "images": [
+                "one.jpg",
+                "two.jpg"
+            ],
+            "tags": [
+                "HTML5",
+                "SCSS",
+                "SVG",
+                "jQuery",
+                "Responsive",
+                "WordPress",
+                "Timber"
+            ],
+            "copy": "Lorizzle ipsum dolizzle sit amizzle, phat adipiscing shizzle my nizzle crocodizzle. Nullizzle sapien , shizzlin dizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle, for sure quizzle, gravida i'm in the shizzle, . Pellentesque dope tortizzle. Sizzle erizzle. izzle dolor dapibus turpis tempizzle tempor. Maurizzle pellentesque nibh et away. Sizzle izzle tortor. Pellentesque away rhoncizzle pimpin'. In i saw beyonces tizzles and my pizzle went crizzle habitasse platea dictumst. Gangsta . Gangster tellus check it out, pretizzle eu, mattizzle shizzlin dizzle, eleifend owned, nunc. Check it out suscipizzle. Integer cool mofo sed mofo."
+        },
+        {
+            "slug": "midnightmoon",
+            "title": "Junior Johnsons Midnight Moon",
+            "url": "http://juniorsmidnightmoon.com",
+            "mainImg": "midnightmoon.jpg",
+            "images": [
+                "one.jpg",
+                "two.jpg"
+            ],
+            "tags": [
+                "HTML5",
+                "SCSS",
+                "jQuery",
+                "Responsive",
+                "WordPress"
+            ],
+            "copy": "Lorizzle ipsum dolizzle sit amizzle, phat adipiscing shizzle my nizzle crocodizzle. Nullizzle sapien , shizzlin dizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle, for sure quizzle, gravida i'm in the shizzle, . Pellentesque dope tortizzle. Sizzle erizzle. izzle dolor dapibus turpis tempizzle tempor. Maurizzle pellentesque nibh et away. Sizzle izzle tortor. Pellentesque away rhoncizzle pimpin'. In i saw beyonces tizzles and my pizzle went crizzle habitasse platea dictumst. Gangsta . Gangster tellus check it out, pretizzle eu, mattizzle shizzlin dizzle, eleifend owned, nunc. Check it out suscipizzle. Integer cool mofo sed mofo."
+        },
+        {
+            "slug": "dixon",
+            "title": "Dixon & Company",
+            "url": "http://dixonwm.com/",
+            "mainImg": "dixonco.jpg",
+            "images": [
+                "one.jpg",
+                "two.jpg"
+            ],
+            "tags": [
+                "HTML5",
+                "SCSS",
+                "jQuery",
+                "Wordpress"
+            ],
+            "copy": "Lorizzle ipsum dolizzle sit amizzle, phat adipiscing shizzle my nizzle crocodizzle. Nullizzle sapien , shizzlin dizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle, for sure quizzle, gravida i'm in the shizzle, . Pellentesque dope tortizzle. Sizzle erizzle. izzle dolor dapibus turpis tempizzle tempor. Maurizzle pellentesque nibh et away. Sizzle izzle tortor. Pellentesque away rhoncizzle pimpin'. In i saw beyonces tizzles and my pizzle went crizzle habitasse platea dictumst. Gangsta . Gangster tellus check it out, pretizzle eu, mattizzle shizzlin dizzle, eleifend owned, nunc. Check it out suscipizzle. Integer cool mofo sed mofo."
+        },
+        {
+            "slug": "hoots",
+            "title": "Hoots Beer",
+            "url": "http://hootspublic.com/",
+            "mainImg": "hoots.jpg",
+            "images": [
+                "one.jpg",
+                "two.jpg"
+            ],
+            "tags": [
+                "HTML5",
+                "SCSS",
+                "Responsive",
                 "jQuery"
             ],
-            "copy": "Lorizzle ipsizzle dolizzle sit amizzle, consectetuer adipiscing bling bling. Gangster boofron velizzle, aliquet volutpizzle, brizzle, gravida vizzle, arcu. Pellentesque dizzle yippiyo. Sed erizzle. Away at dolizzle sheezy turpis rizzle we gonna chung. Maurizzle pellentesque nibh et turpis. Bling bling izzle dizzle. Fo eleifend get down get down fo shizzle. In hac things fo shizzle my nizzle phat. Shizznit dapibizzle. Bow wow wow its fo rizzle urna, pretizzle eu, mattizzle izzle, eleifend vitae, nunc. Break it down suscipizzle. Integizzle semper sizzle doggy boofron."
+            "copy": "Lorizzle ipsum dolizzle sit amizzle, phat adipiscing shizzle my nizzle crocodizzle. Nullizzle sapien , shizzlin dizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle, for sure quizzle, gravida i'm in the shizzle, . Pellentesque dope tortizzle. Sizzle erizzle. izzle dolor dapibus turpis tempizzle tempor. Maurizzle pellentesque nibh et away. Sizzle izzle tortor. Pellentesque away rhoncizzle pimpin'. In i saw beyonces tizzles and my pizzle went crizzle habitasse platea dictumst. Gangsta . Gangster tellus check it out, pretizzle eu, mattizzle shizzlin dizzle, eleifend owned, nunc. Check it out suscipizzle. Integer cool mofo sed mofo."
         },
         {
-            "slug": "project-two",
-            "title": "Project 2",
-            "copy": "this is project two"
-        },
-        {
-            "slug": "project-three",
-            "title": "Project 3",
-            "copy": "this is project three"
-        },
-        {
-          "slug": "project-four",
-          "title": "Project 4",
-          "copy": "this is project four"
-        },
-        {
-            "slug": "project-five",
-            "title": "Project 5",
-            "copy": "this is project five"
-        },
-        {
-            "slug": "project-six",
-            "title": "Project 6",
-            "copy": "this is project six"
-        },
-        {
-            "slug": "project-seven",
-            "title": "Project 7",
-            "copy": "this is project seven"
-        },
-        {
-          "slug": "project-eight",
-          "title": "Project 8",
-          "copy": "this is project eight"
+            "slug": "moore-farms",
+            "title": "Moore Farms Botanical Garden",
+            "url": "http://moorefarmsbg.org/",
+            "mainImg": "moorefarms.jpg",
+            "images": [
+                "one.jpg",
+                "two.jpg"
+            ],
+            "tags": [
+                "HTML5",
+                "CSS3",
+                "jQuery",
+                "Responsive",
+                "WordPress"
+            ],
+            "copy": "Lorizzle ipsum dolizzle sit amizzle, phat adipiscing shizzle my nizzle crocodizzle. Nullizzle sapien , shizzlin dizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle, for sure quizzle, gravida i'm in the shizzle, . Pellentesque dope tortizzle. Sizzle erizzle. izzle dolor dapibus turpis tempizzle tempor. Maurizzle pellentesque nibh et away. Sizzle izzle tortor. Pellentesque away rhoncizzle pimpin'. In i saw beyonces tizzles and my pizzle went crizzle habitasse platea dictumst. Gangsta . Gangster tellus check it out, pretizzle eu, mattizzle shizzlin dizzle, eleifend owned, nunc. Check it out suscipizzle. Integer cool mofo sed mofo."
         }
     ]
 }

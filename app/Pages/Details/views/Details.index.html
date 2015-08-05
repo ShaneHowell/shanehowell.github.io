@@ -3,8 +3,8 @@
     <view-title>{{ pageTitle }} // Shane Howell</view-title>
 
     <div class="container">
-        <div class="images">
-            <img ng-repeat="image in project.images track by $index" ng-src="{{ image }}">
+        <div class="images" ng-if="project.images.length > 0">
+            <img ng-repeat="image in project.images" ng-src="Pages/Details/views/img/{{ project.slug }}/min/{{ image }}">
         </div>
 
         <div class="copy">
