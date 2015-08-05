@@ -36,6 +36,8 @@
             }
 
             .images {
+                min-height: 488px;
+
                 img {
                     width: 100%;
                 }
@@ -121,6 +123,8 @@
 
         #details {
             .images {
+                min-height: 182px;
+
                 img {
                     width: 49.5%;
 
@@ -144,6 +148,8 @@
 
         #details {
             .images {
+                min-height: 277px;
+
                 img {
                     display: inline-block;
                     width: 49.5%;
@@ -206,6 +212,8 @@
 
         #details {
             .images {
+                min-height: 376px;
+
                 img {
                     &:nth-of-type(1) {
                         margin-right: 9px;
@@ -235,6 +243,8 @@
 
         #details {
             .images {
+                min-height: 471px;
+
                 img {
                     &:nth-of-type(1) {
                         margin-right: 12px;
