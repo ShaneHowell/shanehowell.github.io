@@ -233,6 +233,39 @@
             .copy {
                 width: cols(9);
 
+                h1 {
+                    position: relative;
+
+                    &:after {
+                        content: "\00AB";
+                        position: absolute;
+                        margin: -4px 0 0 8px;
+                        // top: -4px; left: 8px;
+                        color: lighten(#000, 50%);
+                        opacity: 0;
+                        transform: translateX(5px);
+                        transition: all .3s ease-in-out 0s;
+                    }
+
+                    &:before {
+                        content: "\00BB";
+                        position: absolute;
+                        top: -4px; left: -23px;
+                        color: lighten(#000, 50%);
+                        opacity: 0;
+                        transform: translateX(-5px);
+                        transition: all .3s ease-in-out 0s;
+                    }
+
+                    &:hover {
+                        &:after,
+                        &:before {
+                            transform: translateX(0px);
+                            opacity: 1;
+                        }
+                    }
+                }
+
                 .left {
                     width: cols(7.22);
                 }
