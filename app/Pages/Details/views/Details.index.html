@@ -4,7 +4,7 @@
 
     <div class="container">
         <div class="images" ng-if="project.images.length > 0">
-            <img ng-repeat="image in project.images" ng-src="Pages/Details/views/img/{{ project.slug }}/min/{{ image }}">
+            <img ng-repeat="image in project.images" ng-src="Pages/Details/views/img/{{ project.slug }}/{{ image }}">
         </div>
 
         <div class="copy">

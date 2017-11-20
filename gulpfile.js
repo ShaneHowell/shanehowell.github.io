@@ -32,7 +32,7 @@ var gulp         = require('gulp'),
  * Input, Output paths and environment variables.
  */
     // Set proxy
-    var proxy = "local.shanehowell.com";
+    var proxy = "local.sh.dev";
 
     var input_paths = {
         images:  [srcPath + '**/*.jpg', srcPath + '**/*.png', srcPath + '**/*.gif', '!' + srcPath + '**/*.min.*', '!' + srcPath + '**/min/*.*' ],
