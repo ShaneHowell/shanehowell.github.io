@@ -1,184 +1,308 @@
 {
     "projects": [
-        {
-            "slug": "airtype",
-            "title": "Airtype",
-            "url": "http://airtype.com/",
-            "mainImg": "airtype.jpg",
-            "images": [
-                "one.jpg",
-                "two.jpg"
-            ],
-            "tags": [
-                "HTML5",
-                "SCSS",
-                "SVG",
-                "jQuery",
-                "Responsive",
-                "CraftCMS",
-                "Twig"
-            ],
-            "copy": "<p>Airtype is a design and interactive agency based in Winston-Salem, NC and Portland, OR. Airtype's website was rebuilt to have a focus on their people and work. My role as the Front-End Developer was to take the design and translate it into a cohesive and responsive website that showcased Airtype's capabilities.</p>"
-        },
-        {
-            "slug": "exnovo",
-            "title": "Ex Novo Brewing",
-            "url": "http://exnovobrew.com/",
-            "mainImg": "exnovo.jpg",
-            "images": [
-                "one.jpg",
-                "two.jpg"
-            ],
-            "tags": [
-                "HTML5",
-                "SCSS",
-                "SVG",
-                "jQuery",
-                "Responsive",
-                "CraftCMS",
-                "Twig"
-            ],
-            "copy": "Ex Novo is a non-profit brewery and restaurant based in Portland, OR. Ex Novo is a new type of brewery that donates all of their profits to their different causes. My role as the Front-End Developer was to take the rather nice design and translate it into a responsive website that matched Ex Novo's personality."
-        },
-        {
-            "slug": "phuzzphest",
-            "title": "Phuzz Phest",
-            "url": "http://phuzzphest.com/",
-            "mainImg": "phuzzphest.jpg",
-            "images": [
-                "one.jpg",
-                "two.jpg"
-            ],
-            "tags": [
-                "HTML5",
-                "SCSS",
-                "SVG",
-                "jQuery",
-                "Responsive",
-                "CraftCMS",
-                "Twig"
-            ],
-            "copy": "Phuzz Phest is a music festival that happens every year where bands from across the country come to play in various venues across Winston-Salem, NC. My role as the Front-End Developer was to take the creative and make it come to life in a way that would showcase the event while making it easy for the concert goers to find information about it and the bands."
-        },
-        {
-            "slug": "grizzly",
-            "title": "Grizzly",
-            "url": "http://mygrizzly.com/",
-            "mainImg": "grizzly.jpg",
-            "images": [],
-            "tags": [
-                "HTML5",
-                "SCSS",
-                "AngularJS",
-                "Responsive",
-                "CraftCMS"
-            ],
-            "copy": "<p><i>**Due to US Federal law, I am unable to show images from the website. To view the site, you will have to navigate to the site and create a login.</i></p><p>Grizzly is a worldwide chewing tobacco brand. My role as the Front-End Developer was to help convert the old website into a newly designed and more extensible site. We rebuilt it from the ground up in AngularJS to help with the ongoing evolution of the brand. It was rebuilt to be as modular as possible since Grizzly does new campaigns every quarter to engage with their customers.</p>"
-        },
-        {
-            "slug": "nas",
-            "title": "Natural American Spirits",
-            "url": "https://www.nascigs.com",
-            "mainImg": "nas.jpg",
-            "images": [],
-            "tags": [
-                "HTML5",
-                "SCSS",
-                "AngularJS",
-                "SVG",
-                "Responsive"
-            ],
-            "copy": "<p><i>**Due to US Federal law, I am unable to show images from the website. To view the site, you will have to navigate to the site and create a login.</i></p><p>Natural American Spirits is a worldwide cigarette company. My role as the Front-End Devloper was to take the new design and completely rebuild the website to modern standards. We rebuilt it in AngularJS to help deliver a better experience, thoughtful animation and fluid movement to have a cohesive experience across any screen.</p>"
-        },
-        {
-            "slug": "hiphopfellow",
-            "title": "The Hip-Hop Fellow",
-            "url": "http://thehiphopfellow.com/",
-            "mainImg": "hiphopfellow.jpg",
-            "images": [
-                "one.jpg",
-                "two.jpg"
-            ],
-            "tags": [
-                "HTML5",
-                "SCSS",
-                "SVG",
-                "jQuery",
-                "Responsive",
-                "WordPress",
-                "Timber"
-            ],
-            "copy": "The Hip-Hop Fellow is a documentary following 9th Wonder's time at Harvard Universty. 9th Wonder needed a website to help showcase the film and to provide people a place to go to find out more information about screenings. We built the website in WordPress to allow the client to update the site as they released new information."
-        },
-        {
-            "slug": "midnightmoon",
-            "title": "Junior Johnsons Midnight Moon",
-            "url": "http://juniorsmidnightmoon.com",
-            "mainImg": "midnightmoon.jpg",
-            "images": [
-                "one.jpg",
-                "two.jpg"
-            ],
-            "tags": [
-                "HTML5",
-                "SCSS",
-                "jQuery",
-                "Responsive",
-                "WordPress"
-            ],
-            "copy": "Junior Johnsons Midnight Moon needed a new website to better showcase their moonshine and wanted to provide a way for their customers to submit recipes they've come up with using Junior Johnson's Midnight Moon. We built an animated and information rich website to help showcase the brand and things possible with their product."
-        },
-        {
-            "slug": "dixon",
-            "title": "Dixon & Company",
-            "url": "http://dixonwm.com/",
-            "mainImg": "dixonco.jpg",
-            "images": [
-                "one.jpg",
-                "two.jpg"
-            ],
-            "tags": [
-                "HTML5",
-                "SCSS",
-                "jQuery",
-                "Wordpress"
-            ],
-            "copy": "Dixon & Company needed a website that could showcase their experience and aptitude. We built them a colorful and information rich website that provide potential clients an overall view of their capabilities while providing a cohesive browsing experience."
-        },
-        {
-            "slug": "hoots",
-            "title": "Hoots Beer",
-            "url": "http://hootspublic.com/",
-            "mainImg": "hoots.jpg",
-            "images": [
-                "one.jpg",
-                "two.jpg"
-            ],
-            "tags": [
-                "HTML5",
-                "SCSS",
-                "Responsive",
-                "jQuery"
-            ],
-            "copy": "Hoots Beer Company is a brewery and bar located in Winston-Salem, NC. They didn't want anything fancy for a website but wanted to provide their customers with a synopsis of their company and beliefs. We built them a simple responsive website that accuratly portrays what they're going for in their beer and company."
-        },
-        {
-            "slug": "moore-farms",
-            "title": "Moore Farms Botanical Garden",
-            "url": "http://moorefarmsbg.org/",
-            "mainImg": "moorefarms.jpg",
-            "images": [
-                "one.jpg",
-                "two.jpg"
-            ],
-            "tags": [
-                "HTML5",
-                "CSS3",
-                "jQuery",
-                "Responsive",
-                "WordPress"
-            ],
-            "copy": "Moore Farms needed a website to showcase their new Botanical Garden and provide information to the general public about the garden and plants. The website displays bright colors to help represent the garden and attitude of the company while providing a cohesive, responsive and informative experience to the user."
-        }
+      {
+        "slug": "formstack",
+        "title": "Craft Formstack Plugin",
+        "url": "https://github.com/trendyminds/craft-formstack",
+        "mainImg": "formstack.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg"
+        ],
+        "tags": [
+            "Craft CMS",
+            "PHP",
+            "Twig"
+        ],
+        "copy": "<p>A client of <a href=\"https://trendyminds.com/\" target=\"_blank\">TrendyMinds</a> regularly used Formstack to manage the forms on their website. Previously they were managing this manually by copying and pasting the embed code from Formstack.</p><p>To make this task less tedious and a better experience for the client, I created a Craft CMS plugin to connect to Formstack using their API and grab the form embed for them. The forms are listed in a dropdown and by selecting one, the plugin will call out to Formstack and grab the form embed minus all of the extra markup and add it to a textarea for further editing.</p><p>You can view the public Git repository by clicking the title above or <a href=\"https://github.com/trendyminds/craft-formstack\" target=\"_blank\">by clicking here</a>.</p>"
+      },
+      {
+        "slug": "ind",
+        "title": "Indianapolis International Airport",
+        "url": "https://www.ind.com/",
+        "mainImg": "ind.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg",
+            "three.jpg",
+            "four.jpg"
+        ],
+        "tags": [
+            "Craft CMS",
+            "ReactJS",
+            "JavaScript",
+            "Responsive",
+            "HTML5",
+            "Twig",
+            "PostCSS",
+            "SVG"
+        ],
+        "copy": "<p>IND tasked us with rebuilding their website to update the design and functions to modern standards to help better serve their customers. We built IND.com on Craft CMS with various ReactJS components mixed in to help better serve data to the front end.</p><p>We incorporated multiple dynamic JSON feeds that serve the Parking Spaces and Flight Status widgets. We built this site to be modular within Craft as to give the client the ability to customize and create new pages with different type of modules and layouts.</p><p>As one of the main project development leads, I worked on both the front end and the back end of the website while also managing development progress, developer tasks and additional developers on the project using a multitude of services like Basecamp, Git, Github and Zenhub (Github Project Board extension for Kanban boards).</p>"
+      },
+      {
+        "slug": "pltw",
+        "title": "Project Lead The Way",
+        "url": "https://www.pltw.org/",
+        "mainImg": "pltw.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg",
+            "three.jpg",
+            "four.jpg"
+        ],
+        "tags": [
+            "Craft CMS",
+            "JavaScript",
+            "Responsive",
+            "HTML5",
+            "Twig",
+            "PostCSS",
+            "SVG"
+        ],
+        "copy": "<p>Project Lead The Way tasked us with transforming their online presence to better suit their users and potential users. We built the site on Craft CMS using advanced module building methods to allow the client to build custom module based pages.</p><p>As the project development lead, I touched almost every part of this site on the front end and back end while helping manage other develoment team members actively working on the project using tools like Basecamp, Git and Github Project Boards.</p>"
+      },
+      {
+        "slug": "indy-mpo",
+        "title": "Indy MPO",
+        "url": "http://www.indympo.org/",
+        "mainImg": "indympo.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg",
+            "three.jpg",
+            "four.jpg"
+        ],
+        "tags": [
+            "Craft CMS",
+            "JavaScript",
+            "Responsive",
+            "HTML5",
+            "Twig",
+            "PostCSS",
+            "SVG"
+        ],
+        "copy": "<p>Indianapolis Metropolitan Planning Organization tasked us with creating an advanced, customizable website that could keep the general public up to date on their proceedings and work.</p><p>We built a module based system using Craft CMS allowing the client to build pages with different types of content. We also built in a system that allowed them to <a href=\"http://www.indympo.org/whats-underway/lrtp-2045\" target=\"_blank\">show the progress being made</a> an any given project using advanced Twig and CSS methods.</p><p>As the project development lead, I touched almost every part of this site on the front end and back end while helping manage other develoment team members actively working on the project using tools like Basecamp, Git and Zenhub (github kanban board extension).</p>"
+      },
+      {
+        "slug": "market-street",
+        "title": "Market Street",
+        "url": "https://mswma.com/",
+        "mainImg": "marketstreet.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg"
+        ],
+        "tags": [
+            "Craft CMS",
+            "JavaScript",
+            "Responsive",
+            "HTML5",
+            "Twig",
+            "SCSS",
+            "SVG"
+        ],
+        "copy": "<p>Market Street Wealth Management Advisors tasked us with building an updated website to showcase their personality and abilities. We built a site based on Craft CMS using Twig, PostCSS and JavaScript.</p><p>As the project development lead, I touched almost every part of this site on the front end and back end while helping manage other develoment team members actively working on the project using tools like Basecamp, Git and Github Project Boards.</p>"
+      },
+      {
+        "slug": "nursing-report",
+        "title": "Annual Nursing Report",
+        "url": "http://iuhealth.org/nursing-annual-report",
+        "mainImg": "nursingreport.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg",
+            "three.jpg",
+            "four.jpg"
+        ],
+        "tags": [
+            "AngularJS",
+            "SVG",
+            "HTML5",
+            "SCSS",
+            "Responsive",
+            "ExpEng"
+        ],
+        "copy": "<p>Indian University Health is a hospital network based in Indianapolis, Indiana. I was tasked to build an interacive and responsive experience to showcase statistics based on their nursing networks. The data is supplied through a JSON endpoint that outputs data from an ExpressionEngine CMS. The front end is built with AngularJS, plain JavaScript and SCSS. You can view the page by clicking the title above or if the page is no longer active, you can <a href=\"Pages/Details/views/img/nursing-report/nursing-report.mp4\" target=\"_blank\">view a screen recording here</a>.</p>"
+      },
+      {
+        "slug": "airtype",
+        "title": "Airtype",
+        "url": "http://airtype.com/",
+        "mainImg": "airtype.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg"
+        ],
+        "tags": [
+            "HTML5",
+            "SCSS",
+            "SVG",
+            "jQuery",
+            "Responsive",
+            "CraftCMS",
+            "Twig"
+        ],
+        "copy": "<p>Airtype is a design and interactive agency based in Winston-Salem, NC and Portland, OR. Airtype's website was rebuilt to have a focus on their people and work. My role as the Front-End Developer was to take the design and translate it into a cohesive and responsive website that showcased Airtype's capabilities.</p>"
+      },
+      {
+        "slug": "exnovo",
+        "title": "Ex Novo Brewing",
+        "url": "http://exnovobrew.com/",
+        "mainImg": "exnovo.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg"
+        ],
+        "tags": [
+            "HTML5",
+            "SCSS",
+            "SVG",
+            "jQuery",
+            "Responsive",
+            "CraftCMS",
+            "Twig"
+        ],
+        "copy": "Ex Novo is a non-profit brewery and restaurant based in Portland, OR. Ex Novo is a new type of brewery that donates all of their profits to their different causes. My role as the Front-End Developer was to take the rather nice design and translate it into a responsive website that matched Ex Novo's personality."
+      },
+      {
+        "slug": "phuzzphest",
+        "title": "Phuzz Phest",
+        "url": "http://phuzzphest.com/",
+        "mainImg": "phuzzphest.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg"
+        ],
+        "tags": [
+            "HTML5",
+            "SCSS",
+            "SVG",
+            "jQuery",
+            "Responsive",
+            "CraftCMS",
+            "Twig"
+        ],
+        "copy": "Phuzz Phest is a music festival that happens every year where bands from across the country come to play in various venues across Winston-Salem, NC. My role as the Front-End Developer was to take the creative and make it come to life in a way that would showcase the event while making it easy for the concert goers to find information about it and the bands."
+      },
+      {
+        "slug": "grizzly",
+        "title": "Grizzly",
+        "url": "http://mygrizzly.com/",
+        "mainImg": "grizzly.jpg",
+        "images": [],
+        "tags": [
+            "HTML5",
+            "SCSS",
+            "AngularJS",
+            "Responsive",
+            "CraftCMS"
+        ],
+        "copy": "<p><i>**Due to US Federal law, I am unable to show images from the website. To view the site, you will have to navigate to the site and create a login.</i></p><p>Grizzly is a worldwide chewing tobacco brand. My role as the Front-End Developer was to help convert the old website into a newly designed and more extensible site. We rebuilt it from the ground up in AngularJS to help with the ongoing evolution of the brand. It was rebuilt to be as modular as possible since Grizzly does new campaigns every quarter to engage with their customers.</p>"
+      },
+      {
+        "slug": "nas",
+        "title": "Natural American Spirits",
+        "url": "https://www.nascigs.com",
+        "mainImg": "nas.jpg",
+        "images": [],
+        "tags": [
+            "HTML5",
+            "SCSS",
+            "AngularJS",
+            "SVG",
+            "Responsive"
+        ],
+        "copy": "<p><i>**Due to US Federal law, I am unable to show images from the website. To view the site, you will have to navigate to the site and create a login.</i></p><p>Natural American Spirits is a worldwide cigarette company. My role as the Front-End Devloper was to take the new design and completely rebuild the website to modern standards. We rebuilt it in AngularJS to help deliver a better experience, thoughtful animation and fluid movement to have a cohesive experience across any screen.</p>"
+      },
+      {
+        "slug": "hiphopfellow",
+        "title": "The Hip-Hop Fellow",
+        "url": "http://thehiphopfellow.com/",
+        "mainImg": "hiphopfellow.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg"
+        ],
+        "tags": [
+            "HTML5",
+            "SCSS",
+            "SVG",
+            "jQuery",
+            "Responsive",
+            "WordPress",
+            "Timber"
+        ],
+        "copy": "The Hip-Hop Fellow is a documentary following 9th Wonder's time at Harvard Universty. 9th Wonder needed a website to help showcase the film and to provide people a place to go to find out more information about screenings. We built the website in WordPress to allow the client to update the site as they released new information."
+      },
+      {
+        "slug": "midnightmoon",
+        "title": "Junior Johnsons Midnight Moon",
+        "url": "http://juniorsmidnightmoon.com",
+        "mainImg": "midnightmoon.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg"
+        ],
+        "tags": [
+            "HTML5",
+            "SCSS",
+            "jQuery",
+            "Responsive",
+            "WordPress"
+        ],
+        "copy": "Junior Johnsons Midnight Moon needed a new website to better showcase their moonshine and wanted to provide a way for their customers to submit recipes they've come up with using Junior Johnson's Midnight Moon. We built an animated and information rich website to help showcase the brand and things possible with their product."
+      },
+      {
+        "slug": "dixon",
+        "title": "Dixon & Company",
+        "url": "http://dixonwm.com/",
+        "mainImg": "dixonco.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg"
+        ],
+        "tags": [
+            "HTML5",
+            "SCSS",
+            "jQuery",
+            "Wordpress"
+        ],
+        "copy": "Dixon & Company needed a website that could showcase their experience and aptitude. We built them a colorful and information rich website that provide potential clients an overall view of their capabilities while providing a cohesive browsing experience."
+      },
+      {
+        "slug": "hoots",
+        "title": "Hoots Beer",
+        "url": "http://hootspublic.com/",
+        "mainImg": "hoots.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg"
+        ],
+        "tags": [
+            "HTML5",
+            "SCSS",
+            "Responsive",
+            "jQuery"
+        ],
+        "copy": "Hoots Beer Company is a brewery and bar located in Winston-Salem, NC. They didn't want anything fancy for a website but wanted to provide their customers with a synopsis of their company and beliefs. We built them a simple responsive website that accuratly portrays what they're going for in their beer and company."
+      },
+      {
+        "slug": "moore-farms",
+        "title": "Moore Farms Botanical Garden",
+        "url": "http://moorefarmsbg.org/",
+        "mainImg": "moorefarms.jpg",
+        "images": [
+            "one.jpg",
+            "two.jpg"
+        ],
+        "tags": [
+            "HTML5",
+            "CSS3",
+            "jQuery",
+            "Responsive",
+            "WordPress"
+        ],
+        "copy": "Moore Farms needed a website to showcase their new Botanical Garden and provide information to the general public about the garden and plants. The website displays bright colors to help represent the garden and attitude of the company while providing a cohesive, responsive and informative experience to the user."
+      }
     ]
 }

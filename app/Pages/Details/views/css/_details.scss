@@ -73,7 +73,19 @@
                     margin-bottom: 20px;
                 }
 
-                .left {}
+                .left p {
+                  margin-bottom: 20px;
+                }
+
+                .left p a {
+                  color: #4F93E3;
+                  transition: color .2s ease-in-out;
+                }
+                
+                .left p a:hover {
+                  color: blue;
+                  transition: color .2s ease-in-out;
+                }
 
                 .right {
                     display: none;
@@ -137,7 +149,7 @@
                 img {
                     width: 49.5%;
 
-                    &:nth-of-type(1) {
+                    &:nth-of-type(odd) {
                         margin-right: 4px;
                     }
                 }
@@ -164,7 +176,7 @@
                     width: 49.5%;
                     margin-right: -4px;
 
-                    &:nth-of-type(1) {
+                    &:nth-of-type(odd) {
                         margin-right: 7px;
                     }
                 }
@@ -224,7 +236,7 @@
                 min-height: 376px;
 
                 img {
-                    &:nth-of-type(1) {
+                    &:nth-of-type(odd) {
                         margin-right: 9px;
                     }
                 }
@@ -288,7 +300,7 @@
                 min-height: 471px;
 
                 img {
-                    &:nth-of-type(1) {
+                    &:nth-of-type(odd) {
                         margin-right: 12px;
                     }
                 }
