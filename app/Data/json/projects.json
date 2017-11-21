@@ -81,7 +81,7 @@
             "PostCSS",
             "SVG"
         ],
-        "copy": "<p>Indianapolis Metropolitan Planning Organization tasked us with creating an advanced, customizable website that could keep the general public up to date on their proceedings and work.</p><p>We built a module based system using Craft CMS allowing the client to build pages with different types of content. We also built in a system that allowed them to <a href=\"http://www.indympo.org/whats-underway/lrtp-2045\" target=\"_blank\">show the progress being made</a> an any given project using advanced Twig and CSS methods.</p><p>As the project development lead, I touched almost every part of this site on the front end and back end while helping manage other develoment team members actively working on the project using tools like Basecamp, Git and Zenhub (github kanban board extension).</p>"
+        "copy": "<p>Indianapolis Metropolitan Planning Organization tasked us with creating an advanced, customizable website that could keep the general public up to date on their proceedings and work.</p><p>We built a module based system using Craft CMS allowing the client to build pages with different types of content. We also built in a system that allowed them to <a href=\"http://www.indympo.org/whats-underway/lrtp-2045\" target=\"_blank\">show the progress being made</a> on any given project using advanced Twig and CSS methods.</p><p>As the project development lead, I touched almost every part of this site on the front end and back end while helping manage other develoment team members actively working on the project using tools like Basecamp, Git and Zenhub (github kanban board extension).</p>"
       },
       {
         "slug": "market-street",
